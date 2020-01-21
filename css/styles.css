@@ -25,11 +25,12 @@ body {
   height: 1.5em;
 }
 
-/*.wrapper {
-    text-align: center;
-    position: relative;
+.wrapper {
+  text-align: center;
+  position: relative;
 }
-.hand {
+
+/*.hand {
     position: absolute;
     line-height: 1;
     pointer-events: none;
