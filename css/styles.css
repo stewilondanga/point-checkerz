@@ -1,4 +1,16 @@
 body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  background: hsl(200, 100%, 85%);
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,17 +33,6 @@ body {
   height: 1.5em;
 }
 
-body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    font-size: 16px;
-    background: hsl(200, 100%, 85%);
-}
 .wrapper {
     text-align: center;
     position: relative;
