@@ -30,19 +30,20 @@ body {
   position: relative;
 }
 
-/*.hand {
-    position: absolute;
-    line-height: 1;
-    pointer-events: none;
-    font-size: calc(2em + 8vw);
-    transition: transform .25s ease;
-    top: 0;
-    left: 50%;
-    margin-left: -.35em;
-    transform-origin: 36% 0%;
-    transform: rotate(180deg) translateY(70vh);
+.hand {
+  position: absolute;
+  line-height: 1;
+  pointer-events: none;
+  font-size: calc(2em + 8vw);
+  transition: transform .25s ease;
+  top: 0;
+  left: 50%;
+  margin-left: -.35em;
+  transform-origin: 36% 0%;
+  transform: rotate(180deg) translateY(70vh);
 }
-input:checked ~ .hand {
+
+/*input:checked ~ .hand {
     transform: rotate(180deg);
 }
 input {
