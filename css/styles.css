@@ -43,10 +43,11 @@ body {
   transform: rotate(180deg) translateY(70vh);
 }
 
-/*input:checked ~ .hand {
-    transform: rotate(180deg);
+input:checked~.hand {
+  transform: rotate(180deg);
 }
-input {
+
+/*input {
     transform: scale(2);
     transform-origin: 50% 100%;
 }
