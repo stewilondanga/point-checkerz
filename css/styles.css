@@ -47,12 +47,12 @@ input:checked~.hand {
   transform: rotate(180deg);
 }
 
-/*input {
-    transform: scale(2);
-    transform-origin: 50% 100%;
+input {
+  transform: scale(2);
+  transform-origin: 50% 100%;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
