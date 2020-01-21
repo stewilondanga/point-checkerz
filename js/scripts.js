@@ -6,3 +6,10 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+console.clear();
+document.getElementById("hand").addEventListener("transitionend", function(){
+    if (document.getElementById("useless").checked == true) {
+        document.getElementById("useless").checked = false;
+    }
+});
